@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build",
+  "command": "/usr/local/opt/llvm/bin/clang++   -I/usr/local/Cellar/llvm/10.0.1_1/include  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk   -o CMakeFiles/ast-interpreter.dir/ASTInterpreter.cpp.o -c /Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/ASTInterpreter.cpp",
+  "file": "/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/ASTInterpreter.cpp"
+}
+]

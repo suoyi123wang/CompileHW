@@ -1,0 +1,19 @@
+{
+    "editor.fontSize": 16,
+    "files.associations": {
+        "__hash_table": "cpp",
+        "__tree": "cpp",
+        "algorithm": "cpp",
+        "array": "cpp",
+        "vector": "cpp",
+        "*.def": "cpp",
+        "*.inc": "cpp",
+        "ios": "cpp",
+        "istream": "cpp",
+        "locale": "cpp",
+        "numeric": "cpp",
+        "ostream": "cpp",
+        "random": "cpp",
+        "map": "cpp"
+    }
+}

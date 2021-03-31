@@ -1,0 +1,4 @@
+/Users/wangmiaomiao/coding/compile/assign3/build/CMakeFiles/rebuild_cache.dir
+/Users/wangmiaomiao/coding/compile/assign3/build/CMakeFiles/edit_cache.dir
+/Users/wangmiaomiao/coding/compile/assign3/build/CMakeFiles/assignment3.dir
+/Users/wangmiaomiao/coding/compile/assign3/build/CMakeFiles/intrinsics_gen.dir

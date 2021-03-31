@@ -1,0 +1,67 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "-DLLVM_DIR=/usr/local/Cellar/llvm/10.0.1_1",
+                "-DCMAKE_CXX_FLAGS=\"-std=c++14\""
+            ],
+            "options": {
+				"cwd": "${workspaceFolder}/build"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/clang++-10"
+        }
+    ]
+}
+
+
+// {
+// 	"version": "2.0.0",
+// 	"tasks": [
+// 		{
+// 			"type": "shell",
+// 			"label": "cmake",
+// 			"command": "cmake",
+// 			"args": [
+// 				"-DLLVM_DIR=/usr/lib/llvm-10",
+//                 "-DCMAKE_CXX_FLAGS=\"-std=c++14\"",
+//                 "../."
+// 			],
+// 			"options": {
+// 				"cwd": "${workspaceFolder}/build"
+// 			},
+// 			"problemMatcher": [
+// 				"$gcc"
+// 			],
+// 			"group": "build",
+// 			"detail": "compiler: /usr/bin/clang++-10"
+// 		},
+// 		{
+// 			"type": "shell",
+// 			"label": "build",
+// 			"command": "make",
+// 			"args": [
+// 				"-j4"
+// 			],
+// 			"options": {
+// 				"cwd": "${workspaceFolder}/build"
+// 			},
+// 			"problemMatcher": [
+// 				"$gcc"
+// 			],
+// 			"group": "build",
+// 			"dependsOn": [
+//                 "cmake" // 在task `cmake` 后执行该task
+//             ]
+// 		}
+// 	]
+// }

@@ -1,0 +1,9 @@
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/install/local.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/list_install_components.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/intrinsics_gen.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/ast-interpreter.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/rebuild_cache.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/edit_cache.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/install/strip.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/install.dir
+/Users/wangmiaomiao/coding/compile/assign1/ast-interpreter/build/CMakeFiles/clang-tablegen-targets.dir

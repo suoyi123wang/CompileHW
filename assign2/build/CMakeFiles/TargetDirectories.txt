@@ -1,0 +1,4 @@
+/Users/wangmiaomiao/coding/compile/assign2/build/CMakeFiles/rebuild_cache.dir
+/Users/wangmiaomiao/coding/compile/assign2/build/CMakeFiles/edit_cache.dir
+/Users/wangmiaomiao/coding/compile/assign2/build/CMakeFiles/llvmassignment.dir
+/Users/wangmiaomiao/coding/compile/assign2/build/CMakeFiles/intrinsics_gen.dir

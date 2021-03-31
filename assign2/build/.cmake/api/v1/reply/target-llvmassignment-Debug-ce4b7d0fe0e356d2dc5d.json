@@ -1,0 +1,269 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "llvmassignment"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk  "
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/usr/local/Cellar/llvm/10.0.1_1/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "llvmassignment::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-L/usr/local/Cellar/llvm/10.0.1_1/lib",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/usr/local/Cellar/llvm/10.0.1_1/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMCore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMIRReader.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMPasses.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMCodeGen.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMTarget.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMipo.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMIRReader.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMAsmParser.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMInstrumentation.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMScalarOpts.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMAggressiveInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMInstCombine.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMVectorize.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMBitWriter.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMLinker.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMTransformUtils.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMAnalysis.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMObject.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMBitReader.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMMCParser.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMMC.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMDebugInfoCodeView.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMDebugInfoMSF.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMTextAPI.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMProfileData.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMCore.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMBinaryFormat.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMRemarks.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMBitstreamReader.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMSupport.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libz.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libcurses.tbd",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/llvm/10.0.1_1/lib/libLLVMDemangle.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "llvmassignment",
+	"nameOnDisk" : "llvmassignment",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "LLVMAssignment.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
